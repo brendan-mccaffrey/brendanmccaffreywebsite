@@ -2,6 +2,6 @@
 name:
 position:
 image_path:
-twitter_username:
+insta_username:
 blurb:
 ---

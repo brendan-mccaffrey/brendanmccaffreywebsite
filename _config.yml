@@ -53,6 +53,11 @@ jekyll-archives:
 defaults:
   -
     scope:
+      path: "/_files/"
+    values:
+      permalink: /file.pdf
+  -
+    scope:
       path: ""
     values:
       layout: "default"

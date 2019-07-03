@@ -1,0 +1,305 @@
+/*****************/
+/**** FOOTER *****/
+/*****************/
+footer {
+		bottom: 0;
+		left: 0;
+		padding: 0 4em 4em 0;
+		position: fixed;
+		text-align: right;
+		width: 27.5%;
+		/*text-shadow: 1px 1px 25px #fff;*/
+	}
+		#footer .icons {
+			margin: 1em 0 0 0;
+			font-size: 1.8em;
+		}
+
+			#footer .icons a {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			#footer .icons a:hover {
+				color: #ffffff;
+
+				-o-transition:.5s;
+				-ms-transition:.5s;
+				-moz-transition:.5s;
+				-webkit-transition:.5s;
+				/* ...and now for the proper property */
+				transition:.5s;
+			}
+			#footer .icons a.spotify {
+				color: rgba(30, 215, 96, 0.5);
+				/*text-shadow: 1px 1px 25px #1ed760;*/
+			}
+			#footer .icons a.spotify:hover {
+				color: #1ed760;
+			}
+			/*#footer .icons a.github:hover {
+				color: #d8e4f2 !important;
+			}
+			#footer .icons a.linkedin:hover {
+				color: #cde3f0 !important;
+			}*/
+
+/*****************/
+/**** ICONS ******/
+/*****************/
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: auto;
+	-webkit-font-smoothing: auto;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+	text-decoration: none;
+}
+
+.icon:hover, .icon:active, .icon:visited, .icon:link {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.icon > .label {
+	display: none;
+}
+
+/*****************/
+/**** LISTS ******/
+/*****************/
+
+ul {
+		list-style: square;
+		margin: 0 0 1em 0;
+		padding-left: 1em;
+		font-size: 1em;
+	}
+
+		ul li {
+			padding-left: 0.5em;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 2px #efefef;
+				padding: 0.5em 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 0.4em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 1.5em;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5em 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1em 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5em 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1em;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1em);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1em;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5em;
+					width: calc(100% + 0.5em);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5em;
+					}
+
+		ul.labeled-icons {
+			list-style: none;
+			padding: 0;
+		}
+
+			ul.labeled-icons li {
+				line-height: 1.75em;
+				margin: 1.5em 0 0 0;
+				padding-left: 2.25em;
+				position: relative;
+			}
+
+				ul.labeled-icons li:first-child {
+					margin-top: 0;
+				}
+
+				ul.labeled-icons li a {
+					color: inherit;
+				}
+
+				ul.labeled-icons li h3 {
+					color: #b2b2b2;
+					left: 0;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 1em;
+				}
+/* Navigation bar */
+.navbar {
+	margin-left: 27.5%;
+	width: calc(100% - 27.5%);
+}
+/*.navbar.nav.navbar-nav > li {
+	margin: 5em 0 0 0;
+}*/
+.navbar-center {
+	float: right;
+	position: relative;
+	left: -36.25%;
+	/*right: 50%;*/
+	text-align: center;
+}
+
+.navbar-default {
+  background-color: #1d2027;
+  border-color: #040404;
+}
+.navbar-default .navbar-brand {
+  color: #b4b4b8;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #b4b4b8;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #b4b4b8;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #040404;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #040404;
+}
+.navbar-default .navbar-toggle {
+  border-color: #040404;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #040404;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #b4b4b8;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #b4b4b8;
+}
+.navbar-default .navbar-link {
+  color: #b4b4b8;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #b4b4b8;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #040404;
+  }
+}
+

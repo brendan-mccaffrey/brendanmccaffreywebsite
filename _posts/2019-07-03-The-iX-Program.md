@@ -1,20 +1,20 @@
 ---
-title: What is a friend?
-date: 2016-07-20
-description: Exploring the mechanics of friendship
+title: Summary of the iX program
+date: 2019-07-03
+description: My impression from three days of class
 categories:
-  - friends
+  - finance
+  - work
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
-author_staff_member: anna
+author_staff_member: Brendan
 ---
-Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
 
-![Checkmate](https://source.unsplash.com/random/1500x1000)
 
-## Forms of friendship
+## The Professor
 
-Although there are many forms of friendship, some of which may vary from place to place, certain characteristics are present in many types of bond. Such characteristics include affection, sympathy, empathy, honesty, altruism, mutual understanding, and compassion, enjoyment of each other's company, trust, and the ability to be oneself, express one's feelings, and make mistakes without fear of judgment from the friend.
+The lady teaching the class is a South African native. She has a couple of years in the financial services industry, has a Masters, is CFA certified (kinda a benchmark in finance), and is currently pursuing a PhD. She is very smart, and is a good teacher.
 
-While there is no practical limit on what types of people can form a friendship, friends tend to share common backgrounds, occupations, or interests and have similar demographics.
+## The class
 
-![Raspberries](https://source.unsplash.com/random/1500x1001)
+The class itself is very interesting. We are just getting started, but we have a couple of cool projects coming up for which I'm excited.
+I may also sneakily do the coding class as well. I can't attend both classes, because they are at the same time, but I think I'll try to do the coding homework along with the finance course.

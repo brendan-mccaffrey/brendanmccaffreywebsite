@@ -10,7 +10,7 @@ author_staff_member: Brendan
 ---
 
 I am in a group with five other finance students, working on making financial 
-models for a company called <link href="https://www.m4jam.com/">M4Jam</link>. 
+models for a company called <a href="https://www.m4jam.com/">M4Jam</a>. 
 We are trying to determine how much they should charge for their services, but 
 we don't have nearly enough information to come up with something, haha. 
 

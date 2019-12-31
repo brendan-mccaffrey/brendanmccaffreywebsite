@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
-baseurl:
+title: Brendan McCaffrey
+url: "https://brendanmccaffrey.com"
+baseurl: brendanmccaffrey.com
 google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+google_maps_javascript_api_key: AIzaSyDcGWwimVaVzYbPBH3MJOAg6ZvjpRHSWn4
+disqus_shortname: brendanmccaffrey
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: 
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Brendan McCaffrey
+  email: brendanmccaffrey17@gmail.com
+  Instagram: brendanmccaffrey17 # instagram username 
 social:
-  name: Frisco Template
+  name: Brendan McCaffrey
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/brendan-mccaffrey
 
 # -----
 # Build
@@ -98,6 +98,7 @@ defaults:
 
 social_icons:
   - Facebook
+  - Github
   - Google Plus
   - Instagram
   - LinkedIn
@@ -109,5 +110,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: The online destination for Brendan McCaffrey
+  blurb: kinda a don

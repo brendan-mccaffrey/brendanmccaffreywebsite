@@ -7,16 +7,16 @@ left_links:
     link: /contact/
 right_links:
   - name:
-    link: https://facebook.com/
+    link: https://github.com/brendan-mccaffrey
     new_window: true
-    social_icon: Facebook
+    social_icon: GitHub
   - name:
-    link: https://twitter.com/
-    social_icon: Twitter
+    link: https://www.linkedin.com/in/brendan-mccaffrey/
+    social_icon: LinkedIn
     new_window: true
   - name:
-    link: https://youtube.com/
-    social_icon: YouTube
+    link: https://instagram.com/brendanmccaffrey17
+    social_icon: Instagram
     new_window: true
   - name:
     link: https://plus.google.com/

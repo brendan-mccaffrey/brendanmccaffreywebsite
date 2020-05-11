@@ -12,13 +12,13 @@ image: https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/38660621_28148
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Let's get in touch today</h1>
-			<p class="subtext editable">Send me a message, and I will be sure to get back to you as soon as possible.</p>
+			<h1 class="editable">Let's Talk</h1>
+			<p class="subtext editable">Send me a message <a href="#contact-form">below</a>.<br> Especially if you want to discuss ideas. </p>
 		</div>
 	</div>
 </section>
 
-<section class="pad">
+<section class="pad" id="contact-form">
 	<div class="text-container contact-box">
 		<form action="https://formspree.io/xvozdarq" method="POST">
 			<label for="name">Name</label>
@@ -38,7 +38,7 @@ image: https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/38660621_28148
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:bmccaf@seas.upenn.edu">bmccaf@seas.upenn.edu</a></p>
+			<p class="editable"><a href="mailto:bmccaf@seas.upenn.edu">Brendan McCaffrey</a></p>
 		</div>
 	</div>
 </section>
@@ -74,4 +74,4 @@ image: https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/38660621_28148
 		});
 	}
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrAreiGCwgtawg-or1YU3_HnhLJtIT80Q&amp;callback=initMap"></script>

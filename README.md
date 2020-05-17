@@ -14,11 +14,6 @@ This is a website I created when I was 17 years old, using a public template for
 * Configurable footer
 * Google Analytics
 
-## Setup
-
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
 ## Editing
 

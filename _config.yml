@@ -55,7 +55,7 @@ defaults:
     scope:
       path: "/_files/"
     values:
-      permalink: 
+      permalink: /files/
   -
     scope:
       path: ""

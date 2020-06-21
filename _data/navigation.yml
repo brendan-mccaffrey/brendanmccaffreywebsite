@@ -1,10 +1,10 @@
 - name: Posts
   link: /blog/
-# - name: About
-#   link: /about/
+# - name: Projects
+#   link: /projects/
 - name: Contact
   link: /contact/
-# - name: Cognitive
-#   link: /cognitive/
+# - name: Projects
+#   link: /projects/
 # - name: Behavioral
 #   link: /behavioral/
